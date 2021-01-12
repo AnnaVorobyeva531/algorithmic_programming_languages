@@ -57,7 +57,7 @@ while command < 5500:
     elif brand == 'C':
         print(dictAuto.car_brand[5], ',', dictAuto.car_brand[6])
     elif brand == 'D':
-        print(dictAuto.car_brand[7], ',', dictAuto.car_brand[8], )
+        print(dictAuto.car_brand[7], ',', dictAuto.car_brand[8])
 
     print("Выберите марку автомобиля")
     brand = str(input())
