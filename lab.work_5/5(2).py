@@ -34,6 +34,3 @@ employee_salary['_found'] = find_patch
 print("Кузнецов Артем Михайлович имеет зарплату", find_patch(employee_salary, 'Кузнецов Артем Михайлович'))
 print("Миронова Елена Викторовна имеет зарплату",
       employee_salary['_found'](employee_salary, 'Миронова Елена Викторовна'))
-
-
-
