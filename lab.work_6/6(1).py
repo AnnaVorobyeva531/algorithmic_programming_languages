@@ -30,7 +30,7 @@ if __name__ == "__main__":
     philip.record_call("Скидка", 3)
     philip.record_call("Стандарт", 2)
     alina.record_call("Стандарт", 1)
-    ilya.record_call("Скидка", 5)
+    ilya.record_call("Скидка", 4)
 
     philip.record_payment(2000)
     ilya.record_payment(4500)
