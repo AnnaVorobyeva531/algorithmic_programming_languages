@@ -7,6 +7,7 @@ print(n)
 print("Task-2")
 m = sum(range(88888889))
 print(m)
+
 # или
 s = 0
 for i in range(88888889):
