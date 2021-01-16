@@ -7,10 +7,12 @@ while question != "exit":
     print(prompt)
     question = input()
     answer = random.randint(0, 1)
-    if answer == 0:
+    if question == 'exit':
+        print("Надеюсь вы получили нужный ответ, до свидания!")
+        continue
+    elif answer == 0:
         print('Нет')
     else:
         print('Да')
-    if question == 'exit':
-        print("Надеюсь вы получили нужный ответ, до свидания!")
-        break
+
+
